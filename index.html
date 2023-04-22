@@ -46,11 +46,12 @@
                 <a href="#faq">よくある質問</a>
               </li>
               <li class="header-wrapper__nav__list__item __contact">
-                <a href="#contact">お問い合わせ</a>
+                <a href="#con">お問い合わせ</a>
               </li>
             </ul>
           </nav>
-          <div class="drawer"></div>
+          <div class="drawer">
+          </div>
         </div>
         <div class="header-ttl">
           <div class="header-ttl_border">
@@ -60,8 +61,12 @@
         </div>
         <div class="header-app">
           <p>ダウンロードはこちら</p>
-          <img src="img/fv_ios-img.png" alt="iosロゴ">
-          <img src="img/fv_android-img.png" alt="androidロゴ">
+          <a href="https://www.apple.com/jp/app-store/">
+            <img src="img/fv_ios-img.png" alt="iosロゴ">
+          </a>
+          <a href="https://play.google.com/store/apps?hl=ja&gl=US/">
+            <img src="img/fv_android-img.png" alt="androidロゴ">
+          </a>
         </div>
       </div>
     </header>
@@ -116,7 +121,7 @@
           <h3 class="how-wrapper_ttl">ご利用方法</h3>
           <div class="how-wrapper__all">
             <div class="how-wrapper__all__block">
-              <ul class="how-wrapper__all__block__list">
+              <div class="how-wrapper__all__block__list">
                 <li>Apple Store(IOS)/Google Store(Android)</li>
                 <p>▼</p>
                 <li>trip.appで検索</li>
@@ -128,12 +133,12 @@
                 <li>日付や目的地を選択</li>
                 <p>▼</p>
                 <li>航空券やツアー、ホテルの予約</li>
-              </ul>
+              </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="dow">
+      <section class="dow" id="dow">
         <div class="dow-wrap">
           <div class="dow-wrap_con">
             <h3>まずはプランをチェック!</h3>
@@ -156,8 +161,15 @@
           </div>
           <div class="dow-wrap_app">
             <p>/アプリを無料ダウンロード！/</p>
-            <img src="img/fv_ios-img.png" alt="iosロゴ">
-            <img src="img/fv_android-img.png" alt="androidロゴ">
+            <a href="https://www.apple.com/jp/app-store/">
+              <img src="img/fv_ios-img.png" alt="iosロゴ">
+            </a>
+            <a href="https://play.google.com/store/apps?hl=ja&gl=US/">
+              <img src="img/fv_android-img.png" alt="androidロゴ">
+            </a>
+          </div>
+          <div class="dow-wrap_contact" id="con">
+            <a href="#con">お問い合わせ</a>
           </div>
         </div>
       </section>
@@ -210,6 +222,7 @@
         <small class="footer-wrap__right">©2023_trip.app</small>
       </div>
     </footer>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/common.js"></script>
   </body>
