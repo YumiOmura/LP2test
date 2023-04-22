@@ -511,11 +511,12 @@ li {
   justify-content: center;
   align-items: center;
 }
+
 header .drawer {
   visibility: visible;
   width: 24px;
   position: absolute;
-  top: 28px;
+  top: 20px;
   right: 25px;
   border-top: solid 4px #aaaaaa;
   cursor: pointer;
@@ -541,20 +542,6 @@ header .drawer::before {
 
 header .drawer::after {
   top: 15px;
-}
-
-body.nav-open header .drawer {
-  border-top: 0;
-}
-
-body.nav-open header .drawer::before {
-  top: 9px;
-  transform: rotate(-45deg);
-}
-
-body.nav-open header .drawer::after {
-  top: 9px;
-  transform: rotate(45deg);
 }
 
 
@@ -589,6 +576,20 @@ header .header-wrapper__nav__list__item a{
 header .header-wrapper__nav__list__item.__contact {
   width: 13.5rem;
   border-radius: 50px;
+}
+
+body.nav-open header .drawer {
+  border-top: 0;
+}
+
+body.nav-open header .drawer::before {
+  top: 9px;
+  transform: rotate(-45deg);
+}
+
+body.nav-open header .drawer::after {
+  top: 9px;
+  transform: rotate(45deg);
 }
 
 .header-ttl h4{
